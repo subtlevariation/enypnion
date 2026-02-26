@@ -1,3 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=WDXL+Lubrifont+JP+N&display=swap');
 
+body {
+	font-family: "WDXL Lubrifont JP N", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	line-height: normal;
+}
 
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: url(<images/bg.jpg>) lightgray -8.014px -328.125px / 102.933% 613.738% no-repeat;
+}
+
+form {
+	background-colour: #fff;
+    width: 196px;
+    height: 34px;
+    border-radius: 40px;
+    border: 4px solid #273e7d;
+    display: flex;
+    flex-direction: row;
+    align-items: centre;
+}
+
+input {
+  all: unset;
+  font: 16px;
+  colour: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 0px 15px;
+  align-items: center;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  width: 33px;
+  height: 37px;
+  aspect-ratio: 1/1;
+}
+
+svg {
+  colour: #fff;
+  fill: currentColour;
+  width: 24px;
+  height: 24px;
+  padding: 20px;
+
+}
+
+.btn {
+	width: 74px;
+    height: 34px;
+    aspect-ratio: 37/17;
+    border-radius: 40px;
+    border: 4px solid #273E7D;
+    background: linear-gradient(180deg, #224CC2 5.77%, #54ADD5 51.92%), #D9D9D9;
+    text-decoration: none;
+    
+    color: #FFF;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #314C95;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
