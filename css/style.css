@@ -11,7 +11,8 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background: url(<images/bg.jpg>) lightgray -8.014px -328.125px / 102.933% 613.738% no-repeat;
+  padding: 2px 20px;
+	background: url("images/bg.jpg") lightgray -8.014px -328.125px / 102.933% 613.738% no-repeat;
 }
 
 form {
@@ -69,4 +70,51 @@ svg {
     font-style: normal;
     font-weight: 400;
     line-height: 34px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  width: 100%;
+  max-width: 300px;
+}
+
+aside ol {
+  list-style: none;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+  }
+
+main {
+  padding: 24px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bloomin {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align items: center;
+  text-align: left;
+  text-decoration: none;
+}
+
+h2 {
+  padding: 0px;
+  text-decoration: none;
 }
