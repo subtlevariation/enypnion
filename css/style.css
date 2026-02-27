@@ -7,24 +7,30 @@ body {
 	line-height: normal;
 }
 
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-  padding: 2px 20px;
-	background: url("images/bg.jpg") lightgray -8.014px -328.125px / 102.933% 613.738% no-repeat;
-}
-
 form {
-	background-colour: #fff;
+   background-color: #fff;
     width: 196px;
     height: 34px;
     border-radius: 40px;
     border: 4px solid #273e7d;
     display: flex;
     flex-direction: row;
-    align-items: centre;
+    align-items: center;
 }
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  padding: 2px 20px;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 65%;
+  background-color:rgba(255,255,255,0.5);
+  background-blend-mode: lighten;
+  background-size: cover;
+}
+
 
 input {
   all: unset;
