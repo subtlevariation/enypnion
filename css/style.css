@@ -12,13 +12,13 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-  padding: 2px 20px;
   background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
   background-position: 0% 65%;
   background-color:rgba(255,255,255,0.5);
   background-blend-mode: lighten;
   background-size: cover;
+  width: 100%;
 }
 
 form {
@@ -30,7 +30,7 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 900px;
+    position: margin-right;
 }
 
 input {
@@ -68,7 +68,6 @@ svg {
     border: 4px solid #273E7D;
     background: linear-gradient(180deg, #224CC2 5.77%, #54ADD5 51.92%), #D9D9D9;
     text-decoration: none;
-    margin-right: 20px;
     color: #FFF;
     text-align: center;
     -webkit-text-stroke-width: 1px;
@@ -79,6 +78,10 @@ svg {
     line-height: 34px;
 }
 
+.btn:hover {
+   background: linear-gradient(180deg, #54ADD5 5.77%, #BEDED9 51.92%), #D9D9D9;
+}
+
 section {
   display: flex;
   flex-direction: row;
@@ -87,45 +90,291 @@ section {
 aside {
   width: 100%;
   max-width: 300px;
+  background-color: rgba(212, 235, 40, 0.60);
+  background-size: cover;
 }
 
 aside ol {
   list-style: none;
   margin: 0;
-  padding: 40px;
+  padding: 70px 70px;
   text-align: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
   }
 
+aside a {
+  text-decoration: none;
+  margin: 15px;
+  }
+
+aside a:hover {
+  color: #BEDED9
+}
+
+.visuals {
+  width: 147px;
+  height: 38px;
+  border-radius: 10px;
+  background: #F38EAE;
+  padding: 20x;
+  color: #54ADD5;
+  text-align: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #273E7D;
+  font-family: "Rubik Bubbles";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.genres {
+  width: 147px;
+  height: 38px;
+  border-radius: 10px;
+  background: #F38EAE;
+
+  color: #54ADD5;
+  text-align: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #273E7D;
+  font-family: "Rubik Bubbles";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.artists {
+  width: 147px;
+  height: 38px;
+  border-radius: 10px;
+  background: #F38EAE;
+
+  color: #54ADD5;
+  text-align: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #273E7D;
+  font-family: "Rubik Bubbles";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.saved {
+  width: 147px;
+  height: 38px;
+  border-radius: 10px;
+  background: #F38EAE;
+
+  color: #54ADD5;
+  text-align: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #273E7D;
+  font-family: "Rubik Bubbles";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.account {
+  width: 147px;
+  height: 38px;
+  border-radius: 10px;
+  background: #F38EAE;
+
+  color: #54ADD5;
+  text-align: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #273E7D;
+  font-family: "Rubik Bubbles";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 main {
-  padding: 24px;
+  width: 100%;
+}
+
+.hero {
+  padding: 50px 0px;
+  display: flex;
   justify-content: center;
   flex-direction: column;
+  background-color: #F38EAE;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+
+.random {
+  background-color: rgba(212, 235, 40, 0.60);
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+
+h3 {
+  display: flex;
+ width: 218px;
+ height: 44px;
+ margin: auto;
+ flex-direction: column;
+ justify-content: center;
+  color: #273E7D;
+  text-align: center;
+  font-family: "WDXL Lubrifont JP N";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h1 {
+  display: flex;
+  width: 456px;
+  height: 76px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  color: #54ADD5;
+  text-align: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #273E7D;
+  font-family: "Rubik Bubbles";
+  font-size: 94px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .bloomin {
-  width: 100%;
+ max-width: 100%;
+ height: auto;
+ margin: auto;
+}
+
+.koigeba {
+  max-width: 100%;
+  width: 300px;
+ height: auto;
+ margin: auto;
+}
+
+iframe {
+  max-width: 100%;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
-  margin: 2px 20px;
+  padding: 40px 0px;
+  background-color: #BEDED9;
+  background-size: cover;
+  width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  width: 100%;
 }
 
 ol {
   list-style: none;
   display: flex;
   flex-direction: column;
-  align items: center;
   text-align: left;
-  text-decoration: none;
+  justify-content: center;
+  width: 94px;
+  height: 65px;
 }
 
 h2 {
-  padding: 0px;
-  text-decoration: none;
+  display: flex;
+  width: 369px;
+  height: 32px;
+  flex-direction: column;
+  justify-content: center;
+  color: #273E7D;
+  text-align: center;
+  font-family: "WDXL Lubrifont JP N";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-th {vertical-align: top;
+
+th {
+  vertical-align: top;
   flex-direction: column;
+  width: 78px;
+  height: 15px;
+}
+
+table {
+  width: auto;
+  height: 23px;
+  align-items: column;
+  justify-content: center;
+}
+
+table a {
+   color: #273E7D
+}
+
+table a:hover {
+  color: #F38EAE;
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0px;
+  }
+  form {
+    margin: 10px;
+  }
+  .btn {
+    margin: 0px;
+  }
+  main {
+    flex-direction: column;
+  }
+  section {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  aside {
+    max-width: 100%;
+  }
+  aside ol {
+    flex-direction: row;
+    margin: auto;
+    padding: 10px 0px;
+    margin: auto;
+  }
+  footer {
+    flex-direction: column;
+    width: 100%;
+  }
+  table {
+    .tablemobile {
+   overflow-x: auto;
+   display: block;
+     }
+    }
 }
